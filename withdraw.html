@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5039bf6e5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Assignment 5</title>
+</head>
+<body>
+    <div class="mobile-only">
+        <h2>Withdraw</h2>
+    </div>
+    <div class="navbar">
+        <div class="icons">
+         <a href="index.html" ><i class="fa-solid fa-house"></i></a>
+         <a href="transactions.html" ><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+         <a href="#" ><i class="fa-solid fa-qrcode"></i></a>
+         <a href="transfer.html" ><i class="fa-solid fa-money-bill-transfer"></i></a>
+         <a href="#" ><i class="fa-solid fa-circle-down"></i></a>
+        </div>
+     </div>
+    <div class="app">
+        <div class="app-sidebar">
+            <div class="nav">
+                <h1>XYZ Bank</h1>
+                <a href="index.html" ><span><i class="fa-solid fa-house"></i>Dashboard</span></a>
+                <a href="transactions.html"><span><i class="fa-solid fa-arrow-right-arrow-left"></i>Transactions</span></a>
+                <a href="transfer.html"><span><i class="fa-solid fa-money-bill-transfer"></i>Transfer</span></a>
+                <a href="#""><span class="active"><i class="fa-solid fa-circle-down"></i>Withdraw</span></a>
+            </div>
+            <div class="log-out">
+                <a href=""><span><i class="fa-solid fa-arrow-right-from-bracket"></i>Sign Out</span></a>
+            </div>
+        </div>
+        <div class="app-topbar">
+            <h1 class="title">Withdraw</h1>
+            <a href="#" class="user"><span>Adrian B.<i class="fa-solid fa-user"></i></span></a>
+        </div>
+        <hr>
+        <!--MAIN CONTENT-->
+        <div class="content">
+            <form>
+            <h1 class="option-title">Choose Withdraw Location</h1>
+            <input id="alfa" type="radio" name="option" checked>
+            <label class="options" for="alfa">Alfamart</label>
+            <input id="xyz" type="radio" name="option">
+            <label class="options" for="xyz">XYZ Bank</label>
+            <input id="other" type="radio" name="option">
+            <label class="options" for="other">Others</label>
+            <input class="submit" type="submit" value="Transfer">
+            </form>
+        </div>
+        <!--END OF MAIN CONTENT-->
+    </div>
+</body>
+</html>
