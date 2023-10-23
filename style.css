@@ -556,7 +556,7 @@ input[type="radio"]:checked + .options:hover{
 }
 
 .submit{
-    margin-top: 7.5%;
+    margin-top: 5%;
     color:white;
     font-size: 1vw;
     font-weight: 500;
